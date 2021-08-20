@@ -1,5 +1,6 @@
 #! /bin/bash
 sudo apt-get update -y
+sudo apt-get install bluetooth libbluetooth-dev
 sudo apt-get install bluez bluez-tools -y
 sudo apt-get install bluez-firmware python-bluez python-dev python-pip -y
 sudo pip install evdev
